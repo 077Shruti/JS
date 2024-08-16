@@ -15,4 +15,10 @@ let booleanIsLoggedIn=Boolean(isLoggedIn)
 //"shruti"=>true
 let sum=90
 let stringSum=String(sum)
-console.log(typeof stringSum)
+//console.log(typeof stringSum)
+//*****************OPERATONS**************
+let value=3
+let negValue=-value
+console.log(negValue)
+console.log(2+2)
+con
