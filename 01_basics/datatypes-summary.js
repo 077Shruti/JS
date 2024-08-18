@@ -26,3 +26,19 @@ const myFunction=function(){
 //console.log(typeof BigNumber)//to know the datatype
 console.log(typeof temp)//Datatype of null is "OBJECT"
 //function datatype is OBJECT FUNCTION
+/*************************STACK and HEAP************/
+//Stack(Primitive) and Heap(Non-Primitive)
+let a="shruti"
+let b=a
+b="tia"
+console.log(a);//shruti
+console.log(b);//tia //in stack we change the value but it creates the copy in stack so that's why we got the differnt answers
+let userOne={
+    email:"abc@xyz.com",
+    upi:"abc@suy"
+}
+let userTwo=userOne;
+userTwo.email="oil.gamil.com"
+console.log(userOne.email);//oil.gamil.com
+console.log(userTwo.email);//oil.gamil.com 
+//the variables are created  but both the variables pointed towards the same reference value that why it changes
