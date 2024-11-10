@@ -38,6 +38,7 @@ const arr=[
     1:"a",2:"b",3:"c"
 }
 ]
-arr.[1].1;
-
-
+console.log(Object.keys(myobj));
+console.log(Object.values(myobj));
+console.log(myobj.hasOwnProperty("id"));
+console.log(Object.entries(myobj));
